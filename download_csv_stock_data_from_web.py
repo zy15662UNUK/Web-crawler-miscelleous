@@ -4,7 +4,9 @@ Created on Mon Mar  6 22:25:17 2017
 
 @author: James
 """
-
+'''
+This is a help function for my crawler, which is to download and manipulate an online CSV file with its link.
+'''
 from urllib import request
 def download_csv_stock_data_from_web(csv_url):
     response= request.urlopen(csv_url)#connect python to the internet and open the given link
