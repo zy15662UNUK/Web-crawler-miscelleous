@@ -4,6 +4,14 @@ Created on Wed Mar  8 22:07:01 2017
 
 @author: James
 """
+'''
+This is my latest version of web crawler. Basically its currently working way is:
+1. Start from a page, retrive every item in that page
+2. Enter every item and download every picture inside that item.
+3. Stop until the last page you enter that function is reached.
+BTW
+Sorry for using an porn site in the test of this web crawler, just because its source codes are straightforward, easy for me to understand
+'''
 import requests
 from bs4 import BeautifulSoup
 
